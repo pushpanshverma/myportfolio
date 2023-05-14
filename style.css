@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("/img/x3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height:100vh;
+    width:100%;
+
+}
+
+nav{
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin:2px 5px ;
+
+
+}
+nav ul span{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    color:white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+nav ul span:hover{
+    padding:10px;
+    background-color: purple;
+}
+.intro{
+    top:30vh;
+    left:30px;
+    padding: 10px;
+    font-size: 60px;
+    position:absolute;
+    color: rgb(174, 98, 44);
+
+}
+a{
+    text-decoration: none;
+    transition: color 0.1 ease-in;
+}
+.intro b{
+    color:purple;
+
+}
+.my_work{
+    color:white;
+    padding: 8px 20px;
+    position:relative;
+    background-color: black;
+}
+.my_work:hover{
+    background-color: purple;
+    height:40px;
+    width: 130px;
+
+}
+.aboutsection{
+    display:flex;
+    direction: column;
+    align-items: center;
+    text-align: center;
+    padding:52px 0 52 px 0px;
+    height: 90vh;
+
+}
+.about{
+    
+    width:100%;
+    height: 60px;
+    font-size: 60px;
+    padding: 30px 0px ;
+    color:purple;
+    margin-top:30%;
+    text-align: center;
+    
+
+}
+.about_data{
+    width:60%;
+    color:white;
+    margin:20px 0;
+    padding:10px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 500px 0;
+    height: 90vh;
+
+}
+.my_projects{
+    width: 100%;
+    height: 60px;
+    font-size: 60px;
+    padding:30px 0;
+    color: purple;
+
+    
+}
+.project_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    width: 80%;
+    height:60vh;
+    color:white;
+}
+.all_Project{
+    display:flex;
+    flex-direction: column;
+
+}
+.all_Project div{
+    padding:10px;
+    margin:1px;
+    width: 100px;
+    border: 1px solid rgb(225, 82, 82);
+    
+}
+.aboutProject{
+    align-items: center;
+    width: 60%;
+    height: 188px;
+    display: flex;
+}
